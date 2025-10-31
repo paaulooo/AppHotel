@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Black}">
+    <VerticalStackLayout Margin="20">
+        <Label Text="Sobre" HorizontalOptions="Center" FontSize="30" FontAttributes="Bold" Margin="20"/>
+        <Label Text="Autor: Paulo Roberto Fernandes de Lima" FontSize="18" />
+        <Label Text="Versão: 1.0" FontSize="18" />
+        <Label Text="Mais informações em:" FontSize="18" />
+        <Label Text="https://paledev.vercel.app/" FontSize="18" TextColor="{StaticResource Primary}"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,4 +1,5 @@
-﻿namespace AppHotel
+﻿
+namespace AppHotel
 {
     public partial class App : Application
     {
@@ -6,7 +7,17 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new Views.ContratacaoHospedagem());
+            
+        }
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            var window = base.CreateWindow(activationState);
+            window.Title = "Hotel App";
+
+            window.Width = 400;
+            window.Height = 700;
+            return window;
         }
     }
 }
