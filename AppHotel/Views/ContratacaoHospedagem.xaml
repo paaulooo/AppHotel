@@ -75,7 +75,7 @@
                     </VerticalStackLayout>    
                     
                 </Frame>
-                <Button Text="Avançar" Background="{StaticResource Primary}"/>
+                <Button Text="Avançar" TextColor="White" Background="{StaticResource Primary}"/>
 
 
             </VerticalStackLayout>
