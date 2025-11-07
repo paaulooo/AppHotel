@@ -11,5 +11,12 @@
         <Label Text="Versão: 1.0" FontSize="18" />
         <Label Text="Mais informações em:" FontSize="18" />
         <Label Text="https://paledev.vercel.app/" FontSize="18" TextColor="{StaticResource Primary}"/>
+        <Button Text="Voltar"
+                Clicked="Button_Clicked" 
+                HorizontalOptions="Center" 
+                Margin="20"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"/>
     </VerticalStackLayout>
+    
 </ContentPage>
